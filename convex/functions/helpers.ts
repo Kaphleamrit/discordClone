@@ -25,6 +25,3 @@ export const authenticatedMutation = customQuery(
 );
 
 const unused = "THis is unused variable";
-const unused2 = "THis is unused variable";
-const unused3 = "THis is unused variable";
-const unused4 = "THis is unused variable";
