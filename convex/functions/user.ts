@@ -49,3 +49,10 @@ export const getCurrentUser = async (ctx: QueryCtx | MutationCtx) => {
 const getUserByClerkId = async (ctx: QueryCtx | MutationCtx, clerkId: string) => {
     return await ctx.db.query("users").withIndex("by_clerkId", (q) => q.eq("clerkId", clerkId)).unique();
 };
+
+
+
+const unused = "THis is unused variable";
+for (let i = 0; i < 100; i++) {
+    console.log("THis is unused variable");
+}
