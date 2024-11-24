@@ -25,3 +25,4 @@ export const authenticatedMutation = customQuery(
 );
 
 const unused = "THis is unused variable";
+const abc = "random"
